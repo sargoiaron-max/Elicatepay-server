@@ -1,0 +1,17 @@
+{
+  "name": "elicate-pay-stk-server",
+  "version": "1.0.0",
+  "description": "Node.js backend for Zambian mobile money STK push via Elicate Pay",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  }
+}
